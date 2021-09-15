@@ -27,10 +27,12 @@ p {
 }
 
 img {
-    display: inline-block;
+    display: block;
     /*  should maybe just be block?? */
     width: 550px;  
      /*  make sure the image is not warped or stretched */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div {
@@ -58,13 +60,14 @@ div {
 }
 
 
-#yellow.p, #yellow.h2 {
+#yellow p, #yellow h2 {
     color: #000000;
 }
 
-#yellow.p {
+#yellow p {
     text-shadow: 4px 4px 2px #c7e2c7;
 }
+
 
 #green {
     background-color: #008000;
