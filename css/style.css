@@ -1,23 +1,74 @@
+h1 {
+    font-size: 64px;
+    text-align: center;
+    padding: 10px;
+}
+
 body {
     background-color: #000000;
     color: #ffffff;
     font-family: 'Times New Roman', sans-serif;
 }
 
-h1 {
-    font-size: 64x;
-    text-align: center;
-    padding: 10px;
-}
 
 h2 {
     font-size: 32px;
-    color: #808080; 
-    text-shadow: 4px 4px 2px;
+    text-shadow: 4px 4px 2px #808080;
+}
+
+footer p {
+    text-align: center;
+    padding: 0px 10px 10px 0px;
 }
 
 p {
     font-size: 24px;
     padding: 15px;
 }
+
+img {
+    display: inline-block;
+    /*  should maybe just be block?? */
+    width: 550px;  
+     /*  make sure the image is not warped or stretched */
+}
+
+div {
+    height: 150px;
+    padding: 25px;
+    /* not sure about "automatically be taller if needed" */
+}
+
+#red {
+    background-color: #FF0000;
+    text-align: right;
+}
+
+#blue {
+    background-color: #0000FF;
+    text-align: left;
+    
+}
+
+
+#yellow {
+    background-color: #FFFF00;
+    text-align: right;
+
+}
+
+
+#yellow.p, #yellow.h2 {
+    color: #000000;
+}
+
+#yellow.p {
+    text-shadow: 4px 4px 2px #c7e2c7;
+}
+
+#green {
+    background-color: #008000;
+    text-align: left;
+}
+
 
