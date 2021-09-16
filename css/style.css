@@ -1,3 +1,42 @@
+div {
+    height: 150px;
+    padding: 25px;
+    /* not sure about "automatically be taller if needed" */
+}
+
+#red {
+    background-color: #FF0000;
+    text-align: right;
+}
+
+#blue {
+    background-color: #0000FF;
+    text-align: left;
+    
+}
+
+
+#yellow {
+    background-color: #FFFF00;
+    text-align: right;
+
+}
+
+
+#yellow p, #yellow h2 {
+    color: #000000;
+}
+
+#yellow h2 {
+    text-shadow: 4px 4px 2px #c7e2c7;
+}
+
+
+#green {
+    background-color: #008000;
+    text-align: left;
+}
+
 h1 {
     font-size: 64px;
     text-align: center;
@@ -28,50 +67,11 @@ p {
 
 img {
     display: block;
-    /*  should maybe just be block?? */
     width: 550px;  
-     /*  make sure the image is not warped or stretched */
     margin-left: auto;
     margin-right: auto;
 }
 
-div {
-    height: 150px;
-    padding: 25px;
-    /* not sure about "automatically be taller if needed" */
-}
 
-#red {
-    background-color: #FF0000;
-    text-align: right;
-}
-
-#blue {
-    background-color: #0000FF;
-    text-align: left;
-    
-}
-
-
-#yellow {
-    background-color: #FFFF00;
-    text-align: right;
-
-}
-
-
-#yellow p, #yellow h2 {
-    color: #000000;
-}
-
-#yellow p {
-    text-shadow: 4px 4px 2px #c7e2c7;
-}
-
-
-#green {
-    background-color: #008000;
-    text-align: left;
-}
 
 
